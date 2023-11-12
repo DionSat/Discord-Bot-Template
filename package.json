@@ -2,15 +2,15 @@
   "name": "place_name",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "type": "module",
   "engines": {
     "node": "16.x"
   },
   "scripts": {
-    "start": "node app.js",
-    "register": "node commands.js",
-    "dev": "nodemon app.js"
+    "start": "node src/app.js",
+    "register": "node src/commands.js",
+    "dev": "nodemon src/app.js"
   },
   "keywords": [],
   "author": "",
